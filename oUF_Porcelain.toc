@@ -1,0 +1,22 @@
+## Interface: 50400
+
+## Title: oUF_Porcelain
+## Notes: Porcelain layout for oUF
+## Author: Kelly Crabbé AKA MoonWitch
+## Version: 0.1a
+## X-Website: https://github.com/moonwitch/oUF_Porcelain
+## X-Email: kelly.crabbe@gmail.com
+## X-Curse-Project-ID: oUF_Porcelain
+## X-WoWI-ID: xxx
+
+## Dependencies: oUF
+## OptionalDeps: oUF_Fader, oUF_MovableFrames
+
+Plugins/oUF_AuraWatch.lua
+Plugins/oUF_GCD.lua
+Plugins/oUF_RaidDebuffs.lua
+
+config.lua
+functions.lua
+layout.lua
+about.lua

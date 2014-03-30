@@ -17,6 +17,8 @@ Plugins/oUF_GCD.lua
 Plugins/oUF_RaidDebuffs.lua
 
 config.lua
+tags.lua
 functions.lua
 layout.lua
 about.lua
+testlayout.lua

@@ -39,7 +39,6 @@ cfg.texture = {
 cfg.uf = {
    raid = true,               -- Raid
    boss = true,               -- Boss
-   arena = true,              -- Arena
    party = true,              -- Party
    tank = true,               -- Maintank
    party_target = false,       -- Party target
@@ -139,7 +138,7 @@ cfg.castbar = {
    },
    -- Boss
    boss_cb = {
-      enable = false,
+      enable = true,
       pos = {'BOTTOMRIGHT', 0, -16},
       height = 15,
       width = 150,

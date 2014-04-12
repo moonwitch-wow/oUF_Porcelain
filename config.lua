@@ -3,8 +3,8 @@
 ------------------------------------------------------------------------
 local _, ns = ...
 local oUF = ns.oUF or oUF
-
 local cfg = {}
+ns.cfg = cfg
 
 -----------------------------
 -- Colors and fonts
@@ -21,14 +21,14 @@ cfg.font = {
    number = STANDARD_TEXT_FONT,
 }
 
-cfg.texture = {
+cfg.texture ={
    statusbar = [[Interface\TARGETINGFRAME\UI-StatusBar]],
    backdrop = {
       bgFile = [[Interface\ChatFrame\ChatFrameBackground]],
       edgeFile = [[Interface\ChatFrame\ChatFrameBackground]],
       edgeSize = 1,
       insets = { left = -1, right = -1, top = -1, bottom = -1}
-  }
+  },
 }
 
 ------------------------------------------------------------------------
@@ -47,30 +47,29 @@ cfg.uf = {
 
 -----------------------------
 -- Unit Frames Size
-cfg.size = {
-   --player, target, focus
+cfg.dimensions = {
    player = {
-      width = 250 ,
+   --player, target, focus
+      size = {250, 30},
       health = 30,
       power = 5,
       specific_power = 5,
    },
    --party, tank, arena, boss
    party = {
-      width = 166 ,
+      size = {166, 20},
       health = 30,
       power = 3,
    },
    -- raid
    raid = {
-      width = 60 ,
+      size = {60, 15},
       health = 30,
       power = 3,
    },
    --pet, targettarget, focustarget, arenatarget, partytarget, maintanktarget
-   target = {
-      width = 90 ,
-      height = 30,
+   tot = {
+      size = {90, 30},
    }
 }
 
@@ -144,6 +143,3 @@ cfg.castbar = {
       width = 150,
    }
 }
-
-
-ns.cfg = cfg

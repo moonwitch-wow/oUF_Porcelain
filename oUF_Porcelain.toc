@@ -12,9 +12,8 @@
 ## Dependencies: oUF
 ## OptionalDeps: oUF_Fader, oUF_MovableFrames
 
-Plugins/oUF_AuraWatch.lua
+Plugins/castbar.lua
 Plugins/oUF_GCD.lua
-Plugins/oUF_RaidDebuffs.lua
 
 config.lua
 tags.lua
